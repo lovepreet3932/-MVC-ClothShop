@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-_MVC_ClothShop-9380FA81-611F-4976-8D09-6B53A223978E</UserSecretsId>
+    <RootNamespace>_MVC_ClothShop</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\001-achievement.svg" />
+    <None Include="wwwroot\img\002-pencil.svg" />
+    <None Include="wwwroot\img\003-idea.svg" />
+    <None Include="wwwroot\img\004-shopping-bag.svg" />
+    <None Include="wwwroot\img\005-fountain-pen.svg" />
+    <None Include="wwwroot\img\facebook-icon.svg" />
+    <None Include="wwwroot\img\logo-footer.svg" />
+    <None Include="wwwroot\img\logo.svg" />
+    <None Include="wwwroot\img\twitter-icon.svg" />
+    <None Include="wwwroot\js\script.js" />
+  </ItemGroup>
+
+</Project>
